@@ -3,8 +3,8 @@ const mode = urlParams.get('mode');
 
 const JIRA_DOMAIN = 'ebp.atlassian.net';
 const JIRA_EMAIL = 'bikash@ebpearls.com.au';
-// const JIRA_TOKEN = 'YOUR_JIRA_API_TOKEN_HERE'; // <-- Do NOT hardcode secrets. Use environment variables or secure storage.
-const JIRA_TOKEN = window.JIRA_TOKEN || '';
+// JIRA_TOKEN is now imported from config.js (which is gitignored)
+// Make sure config.js is loaded before this script in your HTML
 const JIRA_PROJECT = 'EBPLANNER';
 
 // UI Elements
