@@ -1,0 +1,1 @@
+# bugReporter_chromeExtension
